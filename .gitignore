@@ -1,0 +1,39 @@
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 分发/打包文件
+dist/
+build/
+*.egg-info/
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 单元测试/覆盖率报告
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 令牌及安全相关文件
+token.txt
+upload.bat
+
+# 测试输出目录
+test_output/
+example_results/
+
+# 其他系统文件
+.DS_Store
+Thumbs.db 
