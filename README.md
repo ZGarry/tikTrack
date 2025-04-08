@@ -18,13 +18,6 @@
 pip install tikTrack
 ```
 
-### 从源码安装 (Install from source)
-```bash
-git clone https://github.com/您的用户名/tiktrack.git
-cd tiktrack
-pip install -e .
-```
-
 ## 功能特点 (Features)
 
 - 使用装饰器轻松跟踪函数执行时间 (Track function execution time easily with decorators)
