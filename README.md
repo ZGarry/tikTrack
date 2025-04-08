@@ -1,11 +1,28 @@
 # TikTrack
 
-一个简单易用的Python性能跟踪和可视化工具。(A simple performance tracking and visualization tool for Python applications.)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/您的用户名/tiktrack/main/docs/logo.png" alt="TikTrack Logo" width="200"/>
+    <p>一个简单易用的Python性能跟踪和可视化工具</p>
+    <p>A simple performance tracking and visualization tool for Python applications</p>
+    <p>
+        <a href="https://pypi.org/project/tikTrack/"><img src="https://img.shields.io/pypi/v/tikTrack.svg" alt="PyPI Version"></a>
+        <a href="https://pypi.org/project/tikTrack/"><img src="https://img.shields.io/pypi/pyversions/tikTrack.svg" alt="Python Versions"></a>
+        <a href="https://github.com/您的用户名/tiktrack/blob/main/LICENSE"><img src="https://img.shields.io/github/license/您的用户名/tiktrack.svg" alt="License"></a>
+    </p>
+</div>
 
 ## 安装 (Installation)
 
+### 从PyPI安装 (Install from PyPI)
 ```bash
 pip install tikTrack
+```
+
+### 从源码安装 (Install from source)
+```bash
+git clone https://github.com/您的用户名/tiktrack.git
+cd tiktrack
+pip install -e .
 ```
 
 ## 功能特点 (Features)
@@ -109,6 +126,11 @@ if __name__ == "__main__":
 2. `performance_summary.csv` - 按阶段聚合的性能摘要数据
 3. `performance_chart.png` - 性能分布饼图
 
+## 贡献 (Contributing)
+
+欢迎贡献！请随时提交问题或拉取请求。
+Contributions are welcome! Feel free to submit issues or pull requests.
+
 ## 许可证 (License)
 
-MIT 
+[MIT](LICENSE) 
